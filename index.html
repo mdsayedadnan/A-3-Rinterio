@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .Manrope {
+            font-family: 'Manrope';
+        }
+    </style>
+
+
+
+
+</head>
+
+<body class="font-Manrope w-11/12 mx-auto">
+    <header class="bg-gradient-to-top from-black-700 to-slate-300">
+        <!-- navbar -->
+        <nav class="border-4">
+            <div class="navbar">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Item 1</a></li>
+
+                        </ul>
+
+
+                    </div>
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <a class="text-xl font-bold">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="font-semibold"><a>Home</a></li>
+                        <li class=""><a>Service</a></li>
+                        <li class=""><a>Portfolio</a></li>
+                        <li class=""><a>Blogs</a></li>
+                        <li class=""><a>Contact Us</a></li>
+
+
+                    </ul>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-thin fa-cart-shopping bg-red-800 w-20"></i>
+
+                </div>
+
+
+
+                <div class="navbar-end">
+                    <div class=" bg-green-600">
+                        <h2 class="font-semibold">Book Consult</h2>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <!-- <img class="" src="./assets/Group 1.png" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- banner section -->
+
+        <div class="flex flex-col items-center justify-center border-4">
+
+            <div>
+                <img src="./assets/banner.png" alt="">
+
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <h1 class="text-4xl font-bold">A barn house of this design has a striking appearance</h1>
+
+                <div class="flex justify-center items-center">
+                    <p class="">The barn house captivates with its blend of rustic charm and modern sophistication,
+                        featuring
+                        weathered wood, sleek metal accents, and large windows that flood the space with natural
+                        light.</p>
+                </div>
+                <div class="bg-[#ABEF5F80]">View Details
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </header>
+    <main>
+        <!-- about as part -->
+
+        <section class="bg-gray-50 mt-24">
+
+            <img src="./assets/Vector.png" alt="">
+
+            <div class="flex justify-between">
+                
+                <div>
+                    <div class="rounded-e-xl">
+                        <i class="fa-solid fa-arrow-right"></i>
+    
+                        <button>About Us</button>
+    
+                    </div>
+                    <div class="">
+                        <h1 class="font-extrabold">We design thoughtful, liveable spaces</h1>
+                        <p>The barn house captivates with its blend of rustic charm and
+                            modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    </div>
+                    <!-- part 1 -->
+                    <div class=" bg-white flex justify-between rounded-xl p-5 px-10 mt-14">
+                        <img src="./assets/commercial.png" alt="">
+                        <div>
+                            <h3 class="font-semibold">Commercial</h3>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+
+                        </div>
+                    </div>
+
+
+                    <!-- part 2 -->
+
+                    <div class="flex justify-between bg-white items-center rounded-xl p-6 mt-20">
+                        <img src="./assets/residential.png" alt="">
+                        <div>
+
+                            <h3 class="font-semibold">Residential</h3>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./assets/Rectangle.png" alt="">
+                </div>
+        </section>
+
+
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
