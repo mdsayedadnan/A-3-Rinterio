@@ -66,10 +66,11 @@
 
 
                 <div class="navbar-end">
-                    <div class=" bg-green-500 lg:flex rounded-3xl p-1 hidden">
-                        <h2 class="font-semibold">Book Consult</h2>
-                        <i class="fa-solid fa-arrow-right -rotate-45 bg-green-500 rounded-full text-white"></i>
+                    <div class=" bg-green-500 lg:flex rounded-3xl hidden">
+                        <div class="rounded-3xl w-36 p-2 font-bold">Book Consult
+                            <i class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-full text-white"></i>
 
+                        </div>
                     </div>
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -83,21 +84,20 @@
         </nav>
         <!-- banner section -->
 
-        <div class="flex flex-col items-center justify-center ">
+        <div >
 
-            <div>
+            <div class="flex flex-col items-center justify-center">
                 <img src="./assets/banner.png" alt="">
 
             </div>
-            <div class="flex flex-col justify-center items-center">
-                <h1 class="text-4xl font-bold">A barn house of this design has a striking appearance</h1>
+            <div class="flex flex-col justify-center p-4 items-center lg:w-2/3 mx-auto">
+                <h1 class=" lg:text-4xl text-center text-2xl font-bold">A barn house of this design has a striking appearance</h1>
 
-                <div class="flex justify-center items-center">
-                    <p class="mt-5">The barn house captivates with its blend of rustic charm and modern sophistication,
+                
+                    <p class="mt-5 text-center">The barn house captivates with its blend of rustic charm and modern sophistication,
                         featuring
                         weathered wood, sleek metal accents, and large windows that flood the space with natural
                         light.</p>
-                </div>
                 <div class="bg-[#ABEF5F80] mt-5 rounded-3xl w-36 p-3">View Details
                     <i class="fa-solid fa-arrow-right -rotate-45 bg-green-500 rounded-full text-white"></i>
                 </div>
@@ -109,27 +109,22 @@
     </header>
     <main>
         <!-- about as part -->
-
         <section class="bg-gray-50 pl mt-24">
 
-            <img class="mt-10" src="./assets/Vector.png" alt="">
+            <img class="p-10 hidden lg:block" src="./assets/Vector.png" alt="">
 
-            <div class="flex justify-between items-center gap-8 lg:px-16">
+            <div class="flex flex-col lg:flex-row lg:text-start text-center justify-between items-center gap-8 lg:px-16">
 
                 <div>
-                    <div class="mt-4 bg-white rounded-2xl py-2 w-28">
-                        <i class="fa-solid fa-arrow-right"></i>
-
-                        <button class="">About Us</button>
-
+                    <div class="  flex justify-center lg:justify-start items-center">
+                        <button class="w-28 bg-white p-2 rounded-2xl"> <i class="fa-solid fa-arrow-right"></i>  About Us</button>
                     </div>
                     <div class="p-4">
                         <h1 class="font-extrabold">We design thoughtful, liveable spaces</h1>
                         <p class="mt-5">The barn house captivates with its blend of rustic charm and
                             modern sophistication, featuring weathered wood, sleek metal accents.</p>
                     </div>
-                    <!-- part 1 -->
-                    <div class=" bg-white flex gap-5 file:py-10 rounded-xl">
+                    <div class=" bg-white flex gap-5 text-start p-5 rounded-xl">
                         <img src="./assets/commercial.png" alt="">
                         <div>
                             <h3 class="font-semibold">Commercial</h3>
@@ -138,10 +133,7 @@
                         </div>
                     </div>
 
-
-                    <!-- part 2 -->
-
-                    <div class="bg-white flex gap-5 py-10 mt-5 rounded-xl">
+                    <div class="bg-white text-start flex gap-5 p-5 mt-5 rounded-xl">
                         <img src="./assets/residential.png" alt="">
                         <div>
 
@@ -153,15 +145,15 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="px-5">
                     <img src="./assets/Rectangle.png" alt="">
                 </div>
-        </section>
+        </section> 
 
         <!-- 3nd part -->
 
 
-        <section class="mt-10 bg-gray-50">
+        <!-- <section class="mt-10 bg-gray-50">
             <div class=" flex flex-col items-center justify-center">
                 <div class="mt-4 bg-white rounded-2xl py-2 w-36">
                     <i class="fa-solid fa-arrow-right"></i>
@@ -215,13 +207,13 @@
 
 
 
-        </section>
+        </section> -->
 
         <!-- our latest Portfolio -->
 
-        <section class="border-4 bg-[#FFFFFF] lg:px-12">
+        <!-- <section class="border-4 bg-[#FFFFFF] lg:px-12">
             <div class="mt-6 flex flex-col items-center justify-center">
-                <div>
+                <div class="bg-green-100 rounded-2xl px-4 py-2">
                     <i class="fa-solid fa-arrow-right"></i>
                     <button>Explore our Latest works</button>
 
@@ -271,14 +263,14 @@
                     <img src="./assets/img5.png" alt="">
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- form section -->
 
-        <section class="bg-[url('./assets/bg.JPG')] bg-no-repeat h-[500px] bg-cover">
+        <!-- <section class="bg-[url('./assets/bg.JPG')] bg-no-repeat h-[500px] bg-cover">
             <div class="flex flex-col justify-center items-center">
-                <div>
+                <div class="mt-4 bg-white rounded-2xl py-2 w-36">
                     <i class="fa-solid fa-arrow-right"></i>
-                    <button>Let’s Connect</button>
+                    <button class="">Let’s Connect</button>
                 </div>
 
 
@@ -309,11 +301,11 @@
 
 
             </form>
-        </section>
+        </section> -->
 
 
     </main>
-    <footer class="mt-6 bg-black flex flex-col justify-center items-center">
+    <!-- <footer class="mt-6 bg-black flex flex-col justify-center items-center">
         <div class=" flex flex-col justify-center items-center">
             <div class="text-white mt-8 flex flex-col justify-center items-center">
 
@@ -335,10 +327,17 @@
 
                 </ul>
             </div>
-        </div>
 
 
-    </footer>
+            <div class=" bg-green-500 lg:flex rounded-3xl">
+                <div class="rounded-3xl w-full  p-2 font-bold">Book Consult
+                    <i class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-full text-white"></i>
+
+
+                </div>
+
+
+    </footer> -->
 
 </body>
 
